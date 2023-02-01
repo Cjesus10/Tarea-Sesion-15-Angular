@@ -1,0 +1,17 @@
+<section class="p-5">
+    <h1>{{titulo}}</h1>
+    <hr>
+    <p>Event binding</p>
+    <button (click)="ver()" class="btn btn-primary">{{valor}}</button>
+    <section class="mt-2" *ngIf="mostrar">
+    Event Binding, es el mecanismo Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Corporis,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto odit nostrum repellendus eaque rerum
+    tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, vitae!
+    </section>
+    <hr>
+    
+    <p>Two way binding</p>
+    <p class="mt-3">{{texto}}</p>
+    
+    <textarea class="form-control" name="text" id="" rows="3" [(ngModel)]="texto"></textarea>
+    </section>
